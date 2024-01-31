@@ -1,0 +1,22 @@
+dependencies:
+  espressif/esp-nn:
+    component_hash: b32869798bdb40dec6bc99caca48cd65d42f8a9f506b9ab9c598a076f891ede9
+    source:
+      pre_release: true
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.2
+  espressif/esp-tflite-micro:
+    component_hash: null
+    source:
+      path: C:\Users\hi\Documents\Arduino\BHARAT_PI\tensor_flow\esp-tflite-micro
+      type: local
+    version: '*'
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.1.2
+manifest_hash: d39ea94263f2ad3ae56d44f62a0be1fb8327481be7af41085381541fe717e55e
+target: esp32
+version: 1.0.0
